@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Quicksand:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Quicksand:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&display=swap");
+
+/*
+Fuente para los títulos : 'Exo 2'
+fuente para parrafo o contenido: 'Cormorant Garamond' 
+Fuente del nav a : 'Francois One'
+Fuente del titulo junto al logo: 'Bebas Neue'
+Recursos de 20 diseño en la carpeta img
+*/
+
+header {
+  display: flex;
+  height: 70px;
+  background-color: rgb(14, 18, 18);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Francois One;
+}
+
+.logo h2 {
+  color: aliceblue;
+  font-size: x-large;
+  font-family: Bebas Neue;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+nav a {
+  padding-right: 10px;
+  font-size: large;
+}
+
+nav a:hover {
+  color: rgb(70, 73, 77);
+}
+
+.img-inicio {
+  margin-top: 20px;
+}
+
+.img-inicio img {
+  height: 220px;
+  border-radius: 250px;
+  border: 3px solid rgb(131, 131, 131);
+  margin-right: 10px;
+}
+
+.main-container {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(32, 28, 28);
+  margin-inline: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.inicio {
+  align-items: center;
+  justify-content: center;
+  padding-inline: 50px;
+}
+
+.boton button {
+  margin-inline: 130px;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.titulo1 {
+  color: aliceblue;
+  font-family: "Exo 2";
+}
+
+.parrafo1 {
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 400px;
+  font-family: "Cormorant Garamond";
+}
+
+header {
+  display: flex;
+  height: 70px;
+  background-color: rgb(14, 18, 18);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Francois One;
+}
+
+.logo h2 {
+  color: aliceblue;
+  font-size: x-large;
+  font-family: Bebas Neue;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+nav a {
+  padding-right: 10px;
+  font-size: large;
+}
+
+nav a:hover {
+  color: rgb(171, 173, 175);
+}
+
+.img-inicio {
+  margin-top: 20px;
+}
+
+.img-inicio img {
+  height: 220px;
+  border-radius: 250px;
+  border: 3px solid rgb(131, 131, 131);
+  margin-right: 10px;
+}
+
+.main-container {
+  padding: 20px;
+  background-color: rgb(32, 28, 28);
+  margin-inline: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(32, 28, 28);
+  margin-inline: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.inicio {
+  align-items: center;
+  justify-content: center;
+  padding-inline: 50px;
+}
+
+.boton button {
+  margin-inline: 130px;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.titulo {
+  color: aliceblue;
+  font-family: "Exo 2";
+}
+
+.titulo1 {
+  color: aliceblue;
+  font-family: "Exo 2";
+}
+
+.parrafo1 {
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 400px;
+  font-family: "Exo 2";
+}
+
+main {
+  height: 170vh;
+}
+
+.sub h3,
+p {
+  color: aliceblue;
+  text-align: center;
+}
+
+.sub p {
+  width: 300px;
+}
+
+.sub input {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.redes {
+  color: aliceblue;
+}
+
+.iconos {
+  margin-left: 80px;
+}
+
+.redes h3 {
+  text-align: center;
+  width: 250px;
+}
+
+.mapa {
+  margin: 0;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes img {
+  height: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: #201c1c;
+  color: #f1f1f1;
+}
+.container {
+  width: 80%;
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+.card {
+  color: #d0c7c7;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  border-radius: 20px;
+  font-size: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.card__title {
+  color: #eeefc9;
+  font-family: "Exo 2";
+}
+
+.card__body p {
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+}
+
+.card__img {
+  height: 140px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card__img img {
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 100%;
+  border-radius: 10px;
+}
+
+.px-2 {
+  padding: 20px;
+}
+
+.mx-2 {
+  margin: 20px;
+}
+
+p.textoDescript {
+  color: rgb(21, 24, 26);
+  font-size: 40px;
+  font-family: Bebas Neue;
+  text-align: center;
+}
+
+.sub p {
+  width: 300px;
+}
+
+.sub input {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.redes {
+  color: aliceblue;
+}
+
+.iconos {
+  margin-left: 80px;
+}
+
+.redes h3 {
+  text-align: center;
+  width: 250px;
+}
+
+.mapa {
+  margin: 0;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes img {
+  height: 40px;
+}
+
+/* Wrapper */
+
+.wrapper {
+  max-width: 960px;
+  margin: 65px auto 0;
+}
+
+/* Redes sociales */
+
+.titulo-Redes {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0 0 60px 0;
+  font-size: 48px;
+  font-family: "Exo 2";
+  color: rgba(12, 12, 12, 0.8);
+  text-shadow: 0 1px #676e70, 0 2px #676e70, 0 3px #676e70, 0 4px #676e70,
+    0 5px #676e70;
+}
+
+h1 span {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+
+h1 span:before,
+h1 span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  background: #676e70;
+  width: 99999px;
+}
+
+h1 span:before {
+  left: 100%;
+  margin-left: 20px;
+}
+
+h1 span:after {
+  right: 100%;
+  margin-right: 20px;
+}
+
+/*Estilos para la página de tienda*/
+
+.main-container2 {
+  padding: 10px;
+  background-color: rgb(32, 28, 28);
+  margin-inline: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.galeria {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.producto {
+  width: 30%;
+  margin-bottom: 35px;
+  font-family: "Exo 2";
+}
+
+.img-contendor {
+  width: 100%;
+  height: 65%;
+  border-radius: 10px;
+  border: 3px solid rgb(131, 131, 131);
+}
+
+.img-contendor img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.producto button:hover {
+  background-color: rgb(208, 199, 199);
+}
+
+.producto:hover .img-contendor img {
+  transform: scale(1.2);
+}
+
+.img-contendor {
+  overflow: hidden;
+}
+
+/*ESTILOS DE LA SECCION SERVICIOS*/
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: rgb(32, 28, 28);
+  margin-inline: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.service-container h2 {
+  font-family: "Exo 2";
+  font-size: 2.5rem;
+  position: absolute;
+}
+
+.principio {
+  align-items: center;
+  justify-content: center;
+  padding-inline: 50px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-inline: 110px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.first-container {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(32, 28, 28);
+  margin-inline: 120px;
+  margin-block: 40px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  
+}
+
+.img-principio img {
+  height: 195px;
+  border-radius: 250px;
+  border: 3px solid rgb(21, 20, 20);
+  margin-right: 25px;
+}
+
+.slider-services ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: cambio 17s infinite;
+  animation-direction: alternate;
+}
+
+.slider-services li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-services img {
+  height: 630%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.carrucel{
+  padding-top: 30px;
+}
+
+.contenedor-carrucel{
+  margin-bottom: 20px;
+  width: 400px;
+  padding-bottom:20px ;
+  padding-inline: 150px ;
+  position: relative;  
+}
+
+
+.img-carrucel{
+  height: 260px;
+  border-radius: 30px ;
+}
+
+.botones{
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.7);
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255,255,255,.6);
+  -webkit-transition: all .3s ease;
+  -o-transition:all .3s ease;
+  transition: all .3s ease;
+
+}
+
+.botones:hover{
+  cursor: pointer;
+  transform: scale(1.2,1.2);
+}
+.atras{
+  left: 100px;
+  top: 100px;
+}
+.adelante{
+  right: 0px;
+  top: 100px;
+}
+
+/* Estilos formulario Paolo Alvarez*/
+
+
+
+

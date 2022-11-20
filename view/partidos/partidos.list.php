@@ -91,6 +91,22 @@
                                     <div class="col-md-4">
                                         <h4 class="text-center"><?php echo $card['Estadio'] ?></h4>
                                     </div>
+                                    <div>
+                                        <?php
+                                            //si $card['Datetime'] es menor que la fecha actual, emitir mensaje de partido aun no jugado
+                                            if ($card['Datetime'] > date('Y-m-d H:i:s')) {
+                                                echo '<h4 class="text-center">Partido aún no jugado</h4>';
+                                            }else{
+                                                if($card['Ganf'] > $card['Gvis']){
+                                                    echo '<h4 class="text-center"><b>Ganador:</b> '.$card['Anfitrion'].'<img src="'.$card['BandAnf'].'"></h4>';
+                                                }else if($card['Ganf'] < $card['Gvis']){
+                                                    echo '<h4 class="text-center"><b>Ganador:</b> '.$card['Visitante'].'<img src="'.$card['BandVis'].'"></h4>';
+                                                }else{
+                                                    echo '<h4 class="text-center">Empate</h4>';
+                                                }
+                                            }
+                                        ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
